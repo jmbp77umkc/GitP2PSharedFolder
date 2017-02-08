@@ -1,13 +1,18 @@
 package edu.umkc.mail.jmbp77.clisharedfolder;
 
 import org.eclipse.jgit.api.Git;
+import org.eclipse.jgit.api.Status;
 import org.json.JSONObject;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.util.Set;
 
 public class Main {
 
+    //
+    static int noChangeInterval = 20;
+    static int changeInterval = 5;
 
     public static void main(String[] args) {
         File workdir;
@@ -26,6 +31,8 @@ public class Main {
             JSONObject configJSON = new JSONObject(configText);
             String workuri = configJSON.optString("workdir", "");
             String gituri = configJSON.optString("gitdir","");
+            noChangeInterval = configJSON.optInt("noChangeInterval",noChangeInterval);
+            changeInterval = configJSON.optInt("changeInterval",changeInterval);
             workdir = new File(workuri);
             gitdir = new File(gituri);
         } catch (Exception e) {
@@ -35,13 +42,55 @@ public class Main {
         }
         Git git;
         try {
-            git = Git.init().setDirectory(workdir.getCanonicalFile()).setGitDir(gitdir.getCanonicalFile()).call();
-            git.commit();
+//            git = Git.init().setDirectory(workdir.getCanonicalFile()).setGitDir(gitdir.getCanonicalFile()).call();
+//            git.commit();
+            git = Git.open(gitdir);
+            //test finding changes at a couple different intervals
+            for (int i=0; i<3; ++i) {
+                Thread.sleep(1000*noChangeInterval);
+                boolean changes;
+                while (changes = commitChanges(git, "No message")) {
+                    System.out.println("Changes have been made. Waiting for more.");
+                    Thread.sleep(1000*changeInterval);
+                }
+                if (changes) System.out.println("Sending changes.");
+                else System.out.println("No change.");
+            }
         } catch (Exception e) {
             System.err.println("Error testing git because:\n");
             e.printStackTrace();
             return;
         }
         System.out.println("Program exiting at the end like I wanted it to do.");
+    }
+
+    public static boolean commitChanges(Git git, String message) {
+        try {
+            Status stat = git.status().call();
+            if (stat.isClean()) return false;
+            Set<String> files;
+            //add untracked
+            files = stat.getUntracked();
+            for (String str : files) {
+                git.add().addFilepattern(str).call();
+            }
+            //remove missing
+            files = stat.getMissing();
+            for (String str : files) {
+                git.rm().addFilepattern(str).call();
+            }
+            //add uncommitted changes
+            files = stat.getUncommittedChanges();
+            for (String str : files) {
+                git.add().addFilepattern(str).call();
+            }
+            //commit
+            git.commit().setMessage(message).call();
+            return true;
+        } catch (Exception e) {
+            System.err.println("Error finding and commiting changes because:\n");
+            e.printStackTrace();
+            return false;
+        }
     }
 }
