@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e138089-5128-437b-bd2d-bf0aa18b258b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mina_core_2_0_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sshd_core_1_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestShell.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CLISharedFolder/edu/umkc/mail/jmbp77/clisharedfolder/Main.class" afterPath="$PROJECT_DIR$/out/production/CLISharedFolder/edu/umkc/mail/jmbp77/clisharedfolder/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CLISharedFolder/org/json/CDL.class" afterPath="$PROJECT_DIR$/out/production/CLISharedFolder/org/json/CDL.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CLISharedFolder/org/json/Cookie.class" afterPath="$PROJECT_DIR$/out/production/CLISharedFolder/org/json/Cookie.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CLISharedFolder/org/json/JSONArray.class" afterPath="$PROJECT_DIR$/out/production/CLISharedFolder/org/json/JSONArray.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CLISharedFolder/org/json/JSONML.class" afterPath="$PROJECT_DIR$/out/production/CLISharedFolder/org/json/JSONML.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CLISharedFolder/org/json/JSONObject.class" afterPath="$PROJECT_DIR$/out/production/CLISharedFolder/org/json/JSONObject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CLISharedFolder/org/json/JSONPointer.class" afterPath="$PROJECT_DIR$/out/production/CLISharedFolder/org/json/JSONPointer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CLISharedFolder/org/json/JSONTokener.class" afterPath="$PROJECT_DIR$/out/production/CLISharedFolder/org/json/JSONTokener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CLISharedFolder/org/json/XML.class" afterPath="$PROJECT_DIR$/out/production/CLISharedFolder/org/json/XML.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CLISharedFolder/org/json/XMLTokener.class" afterPath="$PROJECT_DIR$/out/production/CLISharedFolder/org/json/XMLTokener.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CLISharedFolder.iml" afterPath="$PROJECT_DIR$/CLISharedFolder.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/Main.java" afterPath="$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestCommand.java" afterPath="$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestCommand.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,37 +25,94 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="75" column="44" lean-forward="true" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+            <state relative-caret-position="325">
+              <caret line="82" column="71" lean-forward="true" selection-start-line="82" selection-start-column="71" selection-end-line="82" selection-end-column="71" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#907#982#0" expanded="false" />
+                <element signature="e#1983#2099#0" expanded="false" />
+                <element signature="e#2176#2230#0" expanded="false" />
+                <element signature="method#commitChanges#0;class#Main#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestCommand.java">
+      <file leaf-file-name="TestShell.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestShell.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="64" column="48" lean-forward="true" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
+            <state relative-caret-position="250">
+              <caret line="70" column="58" lean-forward="true" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
               <folding>
-                <element signature="docComment;class#TestCommand#0" expanded="false" />
-                <element signature="e#528#529#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
-                <element signature="e#656#657#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
-                <element signature="e#841#842#0" expanded="true" />
-                <element signature="e#875#876#0" expanded="true" />
-                <element signature="e#951#952#0" expanded="true" />
-                <element signature="e#986#987#0" expanded="true" />
-                <element signature="method#destroy#0;class#TestCommand#0" expanded="false" />
-                <element signature="e#1510#1511#0" expanded="true" />
+                <element signature="e#858#925#0" expanded="false" />
+                <element signature="e#927#1001#0" expanded="false" />
+                <element signature="e#2693#2716#0" expanded="false" />
+                <element signature="method#run#0;class#TestShell#0" expanded="false" />
+                <element signature="method#exitValue#0;class#TestShell#0" expanded="false" />
+                <element signature="class#Factory#0;class#TestShell#0" expanded="false" />
+                <element signature="e#4936#4937#0" expanded="true" />
+                <element signature="e#4968#4969#0" expanded="true" />
+                <element signature="e#5079#5080#0" expanded="true" />
+                <element signature="e#5111#5112#0" expanded="true" />
+                <element signature="e#5226#5227#0" expanded="true" />
+                <element signature="e#5258#5259#0" expanded="true" />
+                <element signature="e#5309#5310#0" expanded="true" />
+                <element signature="e#5351#5352#0" expanded="true" />
+                <element signature="e#5543#5544#0" expanded="true" />
+                <element signature="e#5589#5590#0" expanded="true" />
+                <element signature="e#5669#5670#0" expanded="true" />
+                <element signature="e#5701#5702#0" expanded="true" />
+                <element signature="e#5951#5952#0" expanded="true" />
+                <element signature="e#5983#5984#0" expanded="true" />
+                <element signature="e#6035#6036#0" expanded="true" />
+                <element signature="e#6067#6068#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Buffer.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/common/util/buffer/Buffer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-432">
+              <caret line="58" column="14" lean-forward="false" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+              <folding>
+                <element signature="method#Buffer#0;class#Buffer#0" expanded="false" />
+                <element signature="method#getCompactData#0;class#Buffer#0" expanded="false" />
+                <element signature="method#dumpHex#0;class#Buffer#0" expanded="false" />
+                <element signature="method#dumpHex#1;class#Buffer#0" expanded="false" />
+                <element signature="method#getByte#0;class#Buffer#0" expanded="false" />
+                <element signature="method#getShort#0;class#Buffer#0" expanded="false" />
+                <element signature="method#getUInt#0;class#Buffer#0" expanded="false" />
+                <element signature="method#getLong#0;class#Buffer#0" expanded="false" />
+                <element signature="method#getStringList#0;class#Buffer#0" expanded="false" />
+                <element signature="method#getStringList#1;class#Buffer#0" expanded="false" />
+                <element signature="method#getAvailableStrings#1;class#Buffer#0" expanded="false" />
+                <element signature="method#getStringList#3;class#Buffer#0" expanded="false" />
+                <element signature="method#getBytes#0;class#Buffer#0" expanded="false" />
+                <element signature="method#getPublicKey#0;class#Buffer#0" expanded="false" />
+                <element signature="method#getPublicKey#1;class#Buffer#0" expanded="false" />
+                <element signature="method#getRawPublicKey#0;class#Buffer#0" expanded="false" />
+                <element signature="method#getRawPublicKey#1;class#Buffer#0" expanded="false" />
+                <element signature="method#getKeyPair#0;class#Buffer#0" expanded="false" />
+                <element signature="method#extractEC#0;class#Buffer#0" expanded="false" />
+                <element signature="method#ensureAvailable#0;class#Buffer#0" expanded="false" />
+                <element signature="method#putByte#0;class#Buffer#0" expanded="false" />
+                <element signature="method#putShort#0;class#Buffer#0" expanded="false" />
+                <element signature="method#putInt#0;class#Buffer#0" expanded="false" />
+                <element signature="method#putLong#0;class#Buffer#0" expanded="false" />
+                <element signature="method#putBytes#1;class#Buffer#0" expanded="false" />
+                <element signature="method#putStringList#0;class#Buffer#0" expanded="false" />
+                <element signature="method#putStringList#1;class#Buffer#0" expanded="false" />
+                <element signature="method#putString#1;class#Buffer#0" expanded="false" />
+                <element signature="method#putMPInt#1;class#Buffer#0" expanded="false" />
+                <element signature="method#putPublicKey#0;class#Buffer#0" expanded="false" />
+                <element signature="method#putRawPublicKey#0;class#Buffer#0" expanded="false" />
+                <element signature="method#putKeyPair#0;class#Buffer#0" expanded="false" />
+                <element signature="method#ensureCapacity#0;class#Buffer#0" expanded="false" />
+                <element signature="method#toString#0;class#Buffer#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -80,6 +126,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>shell</find>
+      <find>redirects</find>
+      <find>redirectInput</find>
+      <find>process</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -97,8 +151,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestSession.java" />
         <option value="$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestCommand.java" />
+        <option value="$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestChannel.java" />
         <option value="$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/Main.java" />
+        <option value="$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestShell.java" />
       </list>
     </option>
   </component>
@@ -341,6 +398,14 @@
       <option name="presentableId" value="Default" />
       <updated>1486521071544</updated>
     </task>
+    <task id="LOCAL-00001" summary="Create a ssh service with apache sshd. Able to connect but that's all.">
+      <created>1487036985635</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1487036985635</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -349,15 +414,16 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32818532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32818532" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32818532" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -374,7 +440,6 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -382,10 +447,15 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Create a ssh service with apache sshd. Able to connect but that's all." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create a ssh service with apache sshd. Able to connect but that's all." />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -395,10 +465,62 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1476">
+          <caret line="82" column="46" lean-forward="false" selection-start-line="82" selection-start-column="46" selection-end-line="82" selection-end-column="46" />
+          <folding>
+            <element signature="e#907#982#0" expanded="false" />
+            <element signature="e#1983#2099#0" expanded="false" />
+            <element signature="e#2176#2230#0" expanded="false" />
+            <element signature="method#commitChanges#0;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/server/shell/ProcessShellFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="52" column="21" lean-forward="true" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding>
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="method#ProcessShellFactory#1;class#ProcessShellFactory#0" expanded="false" />
+            <element signature="method#setCommand#0;class#ProcessShellFactory#0" expanded="false" />
+            <element signature="method#setCommand#1;class#ProcessShellFactory#0" expanded="false" />
+            <element signature="e#1619#1620#0" expanded="true" />
+            <element signature="e#1694#1695#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/server/shell/ProcessShell.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#907#982#0" expanded="false" />
+            <element signature="e#1983#2099#0" expanded="false" />
+            <element signature="e#2176#2230#0" expanded="false" />
+            <element signature="method#commitChanges#0;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="64" column="48" lean-forward="true" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
+          <folding>
+            <element signature="docComment;class#TestCommand#0" expanded="false" />
+            <element signature="method#destroy#0;class#TestCommand#0" expanded="false" />
+            <element signature="method#ProFactory#0;class#ProFactory#0;class#TestCommand#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -408,7 +530,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#907#982#0" expanded="false" />
+            <element signature="e#1983#2099#0" expanded="false" />
+            <element signature="e#2176#2230#0" expanded="false" />
+            <element signature="method#commitChanges#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -418,7 +543,23 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#907#982#0" expanded="false" />
+            <element signature="e#1983#2099#0" expanded="false" />
+            <element signature="e#2176#2230#0" expanded="false" />
+            <element signature="method#commitChanges#0;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#907#982#0" expanded="false" />
+            <element signature="e#1983#2099#0" expanded="false" />
+            <element signature="e#2176#2230#0" expanded="false" />
+            <element signature="method#commitChanges#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -590,14 +731,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/server/shell/ProcessShellFactory.class">
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/server/ExitCallback.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="27" column="11" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        <state relative-caret-position="72">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/server/ExitCallback.class">
+    <entry file="file://$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestSession.java" />
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/server/CommandFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/common/util/ValidateUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="116" column="11" lean-forward="false" selection-start-line="116" selection-start-column="11" selection-end-line="116" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/common/util/logging/AbstractLoggingBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/server/Environment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="29" column="53" lean-forward="false" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#TestCommand#0" expanded="false" />
+            <element signature="method#destroy#0;class#TestCommand#0" expanded="false" />
+            <element signature="method#ProFactory#0;class#ProFactory#0;class#TestCommand#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/src.zip!/java/lang/ProcessImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-916">
+          <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="1141" column="0" lean-forward="false" selection-start-line="1141" selection-start-column="0" selection-end-line="1141" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/server/shell/InvertedShell.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/server/CommandLifecycle.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/server/shell/InvertedShellWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-283">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/common/Factory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
@@ -605,34 +843,233 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestCommand.java">
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/src.zip!/java/lang/ProcessBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="64" column="48" lean-forward="true" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
+        <state relative-caret-position="145">
+          <caret line="559" column="0" lean-forward="false" selection-start-line="559" selection-start-column="0" selection-end-line="559" selection-end-column="0" />
           <folding>
-            <element signature="docComment;class#TestCommand#0" expanded="false" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#951#952#0" expanded="true" />
-            <element signature="e#986#987#0" expanded="true" />
-            <element signature="method#destroy#0;class#TestCommand#0" expanded="false" />
-            <element signature="e#1510#1511#0" expanded="true" />
+            <element signature="docComment;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;method#ProcessBuilder#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;method#ProcessBuilder#1;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;method#command#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="method#command#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;method#command#1;class#ProcessBuilder#0" expanded="false" />
+            <element signature="method#command#1;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;method#command#2;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;method#environment#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="method#environment#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="method#environment#1;class#ProcessBuilder#0" expanded="false" />
+            <element signature="e#14797#14848#0" expanded="false" />
+            <element signature="docComment;method#directory#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;method#directory#1;class#ProcessBuilder#0" expanded="false" />
+            <element signature="method#directory#1;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;class#NullInputStream#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="class#NullInputStream#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="method#read#0;class#NullInputStream#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="method#available#0;class#NullInputStream#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;class#NullOutputStream#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="class#NullOutputStream#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="method#write#0;class#NullOutputStream#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;class#Redirect#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;class#Type#0;class#Redirect#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="class#Type#0;class#Redirect#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;field#PIPE#0;class#Type#0;class#Redirect#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;field#INHERIT#0;class#Type#0;class#Redirect#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;field#READ#0;class#Type#0;class#Redirect#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;field#WRITE#0;class#Type#0;class#Redirect#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;field#APPEND#0;class#Type#0;class#Redirect#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;method#type#0;class#Redirect#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;field#PIPE#0;class#Redirect#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="class#19993:20134" expanded="false" />
+            <element signature="method#type#0;class#19993:20134" expanded="false" />
+            <element signature="method#toString#0;class#19993:20134" expanded="false" />
+            <element signature="docComment;field#INHERIT#0;class#Redirect#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="class#20635:20779" expanded="false" />
+            <element signature="method#type#0;class#20635:20779" expanded="false" />
+            <element signature="method#toString#0;class#20635:20779" expanded="false" />
+            <element signature="docComment;method#file#0;class#Redirect#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="method#file#0;class#Redirect#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;method#append#0;class#Redirect#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;method#from#0;class#Redirect#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="method#from#0;class#Redirect#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="class#22026:22320" expanded="false" />
+            <element signature="method#type#0;class#22026:22320" expanded="false" />
+            <element signature="method#file#0;class#22026:22320" expanded="false" />
+            <element signature="docComment;method#to#0;class#Redirect#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="method#to#0;class#Redirect#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="class#23110:23459" expanded="false" />
+            <element signature="method#type#0;class#23110:23459" expanded="false" />
+            <element signature="method#file#0;class#23110:23459" expanded="false" />
+            <element signature="method#append#0;class#23110:23459" expanded="false" />
+            <element signature="docComment;method#appendTo#0;class#Redirect#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="method#appendTo#0;class#Redirect#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="class#24462:24812" expanded="false" />
+            <element signature="method#type#0;class#24462:24812" expanded="false" />
+            <element signature="method#file#0;class#24462:24812" expanded="false" />
+            <element signature="method#append#0;class#24462:24812" expanded="false" />
+            <element signature="docComment;method#equals#0;class#Redirect#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="method#equals#0;class#Redirect#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;method#hashCode#0;class#Redirect#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="method#hashCode#0;class#Redirect#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;method#Redirect#0;class#Redirect#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;method#redirectInput#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="method#redirectInput#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;method#redirectOutput#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="method#redirectOutput#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;method#redirectError#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="method#redirectError#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;method#redirectInput#1;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;method#redirectOutput#1;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;method#redirectError#1;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;method#redirectInput#2;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;method#redirectOutput#2;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;method#redirectError#2;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;method#inheritIO#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="method#inheritIO#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;method#redirectErrorStream#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;method#redirectErrorStream#1;class#ProcessBuilder#0" expanded="false" />
+            <element signature="method#redirectErrorStream#1;class#ProcessBuilder#0" expanded="false" />
+            <element signature="docComment;method#start#0;class#ProcessBuilder#0" expanded="false" />
+            <element signature="e#39007#39066#0" expanded="false" />
+            <element signature="e#40653#40710#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/server/shell/ProcessShell.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+          <folding>
+            <element signature="e#1855#1856#0" expanded="true" />
+            <element signature="e#1890#1891#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/server/ServerFactoryManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/common/session/Session.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-293">
+          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/server/session/ServerSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/server/shell/ProcessShellFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="20" column="76" lean-forward="false" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
+          <folding>
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="method#ProcessShellFactory#1;class#ProcessShellFactory#0" expanded="false" />
+            <element signature="method#setCommand#0;class#ProcessShellFactory#0" expanded="false" />
+            <element signature="method#setCommand#1;class#ProcessShellFactory#0" expanded="false" />
+            <element signature="e#1619#1620#0" expanded="true" />
+            <element signature="e#1694#1695#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="75" column="44" lean-forward="true" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+        <state relative-caret-position="325">
+          <caret line="82" column="71" lean-forward="true" selection-start-line="82" selection-start-column="71" selection-end-line="82" selection-end-column="71" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#907#982#0" expanded="false" />
+            <element signature="e#1983#2099#0" expanded="false" />
+            <element signature="e#2176#2230#0" expanded="false" />
+            <element signature="method#commitChanges#0;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/common/util/buffer/Buffer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <caret line="58" column="14" lean-forward="false" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+          <folding>
+            <element signature="method#Buffer#0;class#Buffer#0" expanded="false" />
+            <element signature="method#getCompactData#0;class#Buffer#0" expanded="false" />
+            <element signature="method#dumpHex#0;class#Buffer#0" expanded="false" />
+            <element signature="method#dumpHex#1;class#Buffer#0" expanded="false" />
+            <element signature="method#getByte#0;class#Buffer#0" expanded="false" />
+            <element signature="method#getShort#0;class#Buffer#0" expanded="false" />
+            <element signature="method#getUInt#0;class#Buffer#0" expanded="false" />
+            <element signature="method#getLong#0;class#Buffer#0" expanded="false" />
+            <element signature="method#getStringList#0;class#Buffer#0" expanded="false" />
+            <element signature="method#getStringList#1;class#Buffer#0" expanded="false" />
+            <element signature="method#getAvailableStrings#1;class#Buffer#0" expanded="false" />
+            <element signature="method#getStringList#3;class#Buffer#0" expanded="false" />
+            <element signature="method#getBytes#0;class#Buffer#0" expanded="false" />
+            <element signature="method#getPublicKey#0;class#Buffer#0" expanded="false" />
+            <element signature="method#getPublicKey#1;class#Buffer#0" expanded="false" />
+            <element signature="method#getRawPublicKey#0;class#Buffer#0" expanded="false" />
+            <element signature="method#getRawPublicKey#1;class#Buffer#0" expanded="false" />
+            <element signature="method#getKeyPair#0;class#Buffer#0" expanded="false" />
+            <element signature="method#extractEC#0;class#Buffer#0" expanded="false" />
+            <element signature="method#ensureAvailable#0;class#Buffer#0" expanded="false" />
+            <element signature="method#putByte#0;class#Buffer#0" expanded="false" />
+            <element signature="method#putShort#0;class#Buffer#0" expanded="false" />
+            <element signature="method#putInt#0;class#Buffer#0" expanded="false" />
+            <element signature="method#putLong#0;class#Buffer#0" expanded="false" />
+            <element signature="method#putBytes#1;class#Buffer#0" expanded="false" />
+            <element signature="method#putStringList#0;class#Buffer#0" expanded="false" />
+            <element signature="method#putStringList#1;class#Buffer#0" expanded="false" />
+            <element signature="method#putString#1;class#Buffer#0" expanded="false" />
+            <element signature="method#putMPInt#1;class#Buffer#0" expanded="false" />
+            <element signature="method#putPublicKey#0;class#Buffer#0" expanded="false" />
+            <element signature="method#putRawPublicKey#0;class#Buffer#0" expanded="false" />
+            <element signature="method#putKeyPair#0;class#Buffer#0" expanded="false" />
+            <element signature="method#ensureCapacity#0;class#Buffer#0" expanded="false" />
+            <element signature="method#toString#0;class#Buffer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestShell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="70" column="58" lean-forward="true" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
+          <folding>
+            <element signature="e#858#925#0" expanded="false" />
+            <element signature="e#927#1001#0" expanded="false" />
+            <element signature="e#2693#2716#0" expanded="false" />
+            <element signature="method#run#0;class#TestShell#0" expanded="false" />
+            <element signature="method#exitValue#0;class#TestShell#0" expanded="false" />
+            <element signature="class#Factory#0;class#TestShell#0" expanded="false" />
+            <element signature="e#4936#4937#0" expanded="true" />
+            <element signature="e#4968#4969#0" expanded="true" />
+            <element signature="e#5079#5080#0" expanded="true" />
+            <element signature="e#5111#5112#0" expanded="true" />
+            <element signature="e#5226#5227#0" expanded="true" />
+            <element signature="e#5258#5259#0" expanded="true" />
+            <element signature="e#5309#5310#0" expanded="true" />
+            <element signature="e#5351#5352#0" expanded="true" />
+            <element signature="e#5543#5544#0" expanded="true" />
+            <element signature="e#5589#5590#0" expanded="true" />
+            <element signature="e#5669#5670#0" expanded="true" />
+            <element signature="e#5701#5702#0" expanded="true" />
+            <element signature="e#5951#5952#0" expanded="true" />
+            <element signature="e#5983#5984#0" expanded="true" />
+            <element signature="e#6035#6036#0" expanded="true" />
+            <element signature="e#6067#6068#0" expanded="true" />
           </folding>
         </state>
       </provider>

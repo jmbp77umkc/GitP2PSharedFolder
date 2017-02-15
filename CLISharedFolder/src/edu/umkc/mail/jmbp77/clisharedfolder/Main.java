@@ -1,6 +1,8 @@
 package edu.umkc.mail.jmbp77.clisharedfolder;
 
+import org.apache.sshd.common.NamedFactory;
 import org.apache.sshd.common.keyprovider.KeyPairProvider;
+import org.apache.sshd.server.Command;
 import org.apache.sshd.server.SshServer;
 import org.apache.sshd.server.auth.password.AcceptAllPasswordAuthenticator;
 import org.apache.sshd.server.keyprovider.SimpleGeneratorHostKeyProvider;
@@ -12,6 +14,8 @@ import org.json.JSONObject;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Set;
 
 public class Main {
@@ -75,7 +79,9 @@ public class Main {
             keygen.setAlgorithm(KeyPairProvider.SSH_RSA);
             sshd.setKeyPairProvider(keygen);
             sshd.setPasswordAuthenticator(AcceptAllPasswordAuthenticator.INSTANCE);
-            sshd.setCommandFactory(new TestCommand.Factory());
+//            sshd.setShellFactory(new TestCommand.ProFactory("TestCommand"));
+//            sshd.setShellFactory(new ProcessShellFactory("/bin/sh"));
+            sshd.setShellFactory(new TestShell.Factory("TestShell"));
             System.out.println("starting sshd");
             sshd.start();
             Thread.sleep(240*1000);
