@@ -1,5 +1,6 @@
 package edu.umkc.mail.jmbp77.clisharedfolder;
 
+import org.apache.sshd.common.Factory;
 import org.apache.sshd.server.Command;
 import org.apache.sshd.server.CommandFactory;
 import org.apache.sshd.server.Environment;
@@ -7,94 +8,121 @@ import org.apache.sshd.server.ExitCallback;
 import org.apache.sshd.server.shell.ProcessShellFactory;
 import org.apache.sshd.server.subsystem.SubsystemFactory;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
+import java.io.*;
 import java.util.List;
 
 /**
- * Created by jorh on 2/13/17.
+ * By example: http://javajdk.net/tutorial/apache-mina-sshd-sshserver-example/
  */
-public class TestCommand implements Command {
-    InputStream in;
-    OutputStream out;
-    OutputStream err;
-    String str;
-    ExitCallback exit;
+public class TestCommand implements Command, Runnable {
 
-    public TestCommand() {
 
-    }
+    //ANSI escape sequences for formatting purposes
+    public static final String ANSI_LOCAL_ECHO = "\u001B[12l";
+    public static final String ANSI_NEWLINE_CRLF = "\u001B[20h";
 
-    public TestCommand(String s) {
-        str = s;
+    public static final String ANSI_RESET = "\u001B[0m";
+
+    public static final String ANSI_BLACK = "\u001B[0;30m";
+    public static final String ANSI_RED = "\u001B[0;31m";
+    public static final String ANSI_GREEN = "\u001B[0;32m";
+    public static final String ANSI_YELLOW = "\u001B[0;33m";
+    public static final String ANSI_BLUE = "\u001B[0;34m";
+    public static final String ANSI_PURPLE = "\u001B[0;35m";
+    public static final String ANSI_CYAN = "\u001B[0;36m";
+    public static final String ANSI_WHITE = "\u001B[0;37m";
+
+
+    //IO streams for communication with the client
+    private InputStream is;
+    private OutputStream os;
+
+    //Environment stuff
+    @SuppressWarnings("unused")
+    private Environment environment;
+    private ExitCallback callback;
+
+    private Thread sshThread;
+
+    @Override
+    public void start(Environment env) throws IOException {
+        //must start new thread to free up the input stream
+        environment = env;
+        sshThread = new Thread(this, "EchoShell");
+        sshThread.start();
     }
 
     @Override
-    public void setInputStream(InputStream inputStream) {
-        in = inputStream;
-    }
+    public void run() {
+        BufferedReader br = new BufferedReader(new InputStreamReader(is));
 
-    @Override
-    public void setOutputStream(OutputStream outputStream) {
-        out = outputStream;
-    }
+        //Make sure local echo is on (because password turned it off
+        try {
+            os.write(
+                    (ANSI_LOCAL_ECHO + ANSI_NEWLINE_CRLF)
+                            .getBytes());
+            os.flush();
+        } catch (IOException e1) {
+            e1.printStackTrace();
+        }
 
-    @Override
-    public void setErrorStream(OutputStream outputStream) {
-        err = outputStream;
-    }
+        try {
 
-    @Override
-    public void setExitCallback(ExitCallback exitCallback) {
-        exit = exitCallback;
-    }
-
-    @Override
-    public void start(Environment environment) throws IOException {
-        //do stuff
-        System.out.println(environment.getPtyModes().keySet().toString());
-        System.out.println("inside");
-        out.write("hullo\n".getBytes());
-
-        byte[] b = new byte[256];
-        int i = in.read(b);
-        out.write(b,0,i);
-        System.out.println("weh");
-        exit.onExit(0);
+            boolean exit = false;
+            String text;
+            while (!exit) {
+                text = br.readLine();
+                if (text == null) {
+                    exit = true;
+                } else {
+                    os.write((ANSI_GREEN + text + ANSI_RESET + "\r\n").getBytes());
+                    os.flush();
+                    if ("exit".equals(text)) {
+                        exit = true;
+                    }
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            callback.onExit(0);
+        }
     }
 
     @Override
     public void destroy() throws Exception {
-
+        sshThread.interrupt();
     }
 
-    public static class Factory implements CommandFactory {
+    @Override
+    public void setErrorStream(OutputStream errOS) {
+    }
+
+    @Override
+    public void setExitCallback(ExitCallback ec) {
+        callback = ec;
+    }
+
+    @Override
+    public void setInputStream(InputStream is) {
+        this.is = is;
+    }
+
+    @Override
+    public void setOutputStream(OutputStream os) {
+        this.os = os;
+    }
+
+    public static class TestFactory implements CommandFactory, Factory<Command> {
 
         @Override
-        public Command createCommand(String s) {
-            System.out.println(s);
-            return new TestCommand(s);
-        }
-    }
-
-    public static class ProFactory extends ProcessShellFactory {
-        public ProFactory() {
-            super();
-            setCommand("TestCommand");
-        }
-
-        public ProFactory(String... command) {
-            super(command);
-        }
-
-        public ProFactory(List<String> ls) {
-            super(ls);
+        public Command createCommand(String command) {
+            return new TestCommand();
         }
 
         @Override
         public Command create() {
-            return new TestCommand();
+            return createCommand("none");
         }
     }
 }

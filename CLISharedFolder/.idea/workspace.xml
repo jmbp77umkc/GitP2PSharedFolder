@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e138089-5128-437b-bd2d-bf0aa18b258b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestShell.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CLISharedFolder/edu/umkc/mail/jmbp77/clisharedfolder/Main.class" afterPath="$PROJECT_DIR$/out/production/CLISharedFolder/edu/umkc/mail/jmbp77/clisharedfolder/Main.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestShell.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/Main.java" afterPath="$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestCommand.java" afterPath="$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestCommand.java" />
@@ -28,8 +27,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="82" column="71" lean-forward="true" selection-start-line="82" selection-start-column="71" selection-end-line="82" selection-end-column="71" />
+            <state relative-caret-position="954">
+              <caret line="81" column="61" lean-forward="false" selection-start-line="81" selection-start-column="61" selection-end-line="81" selection-end-column="61" />
               <folding>
                 <element signature="e#907#982#0" expanded="false" />
                 <element signature="e#1983#2099#0" expanded="false" />
@@ -40,79 +39,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestShell.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestShell.java">
+      <file leaf-file-name="TestCommand.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="70" column="58" lean-forward="true" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
+            <state relative-caret-position="90">
+              <caret line="14" column="78" lean-forward="false" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
               <folding>
-                <element signature="e#858#925#0" expanded="false" />
-                <element signature="e#927#1001#0" expanded="false" />
-                <element signature="e#2693#2716#0" expanded="false" />
-                <element signature="method#run#0;class#TestShell#0" expanded="false" />
-                <element signature="method#exitValue#0;class#TestShell#0" expanded="false" />
-                <element signature="class#Factory#0;class#TestShell#0" expanded="false" />
-                <element signature="e#4936#4937#0" expanded="true" />
-                <element signature="e#4968#4969#0" expanded="true" />
-                <element signature="e#5079#5080#0" expanded="true" />
-                <element signature="e#5111#5112#0" expanded="true" />
-                <element signature="e#5226#5227#0" expanded="true" />
-                <element signature="e#5258#5259#0" expanded="true" />
-                <element signature="e#5309#5310#0" expanded="true" />
-                <element signature="e#5351#5352#0" expanded="true" />
-                <element signature="e#5543#5544#0" expanded="true" />
-                <element signature="e#5589#5590#0" expanded="true" />
-                <element signature="e#5669#5670#0" expanded="true" />
-                <element signature="e#5701#5702#0" expanded="true" />
-                <element signature="e#5951#5952#0" expanded="true" />
-                <element signature="e#5983#5984#0" expanded="true" />
-                <element signature="e#6035#6036#0" expanded="true" />
-                <element signature="e#6067#6068#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Buffer.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/common/util/buffer/Buffer.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-432">
-              <caret line="58" column="14" lean-forward="false" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
-              <folding>
-                <element signature="method#Buffer#0;class#Buffer#0" expanded="false" />
-                <element signature="method#getCompactData#0;class#Buffer#0" expanded="false" />
-                <element signature="method#dumpHex#0;class#Buffer#0" expanded="false" />
-                <element signature="method#dumpHex#1;class#Buffer#0" expanded="false" />
-                <element signature="method#getByte#0;class#Buffer#0" expanded="false" />
-                <element signature="method#getShort#0;class#Buffer#0" expanded="false" />
-                <element signature="method#getUInt#0;class#Buffer#0" expanded="false" />
-                <element signature="method#getLong#0;class#Buffer#0" expanded="false" />
-                <element signature="method#getStringList#0;class#Buffer#0" expanded="false" />
-                <element signature="method#getStringList#1;class#Buffer#0" expanded="false" />
-                <element signature="method#getAvailableStrings#1;class#Buffer#0" expanded="false" />
-                <element signature="method#getStringList#3;class#Buffer#0" expanded="false" />
-                <element signature="method#getBytes#0;class#Buffer#0" expanded="false" />
-                <element signature="method#getPublicKey#0;class#Buffer#0" expanded="false" />
-                <element signature="method#getPublicKey#1;class#Buffer#0" expanded="false" />
-                <element signature="method#getRawPublicKey#0;class#Buffer#0" expanded="false" />
-                <element signature="method#getRawPublicKey#1;class#Buffer#0" expanded="false" />
-                <element signature="method#getKeyPair#0;class#Buffer#0" expanded="false" />
-                <element signature="method#extractEC#0;class#Buffer#0" expanded="false" />
-                <element signature="method#ensureAvailable#0;class#Buffer#0" expanded="false" />
-                <element signature="method#putByte#0;class#Buffer#0" expanded="false" />
-                <element signature="method#putShort#0;class#Buffer#0" expanded="false" />
-                <element signature="method#putInt#0;class#Buffer#0" expanded="false" />
-                <element signature="method#putLong#0;class#Buffer#0" expanded="false" />
-                <element signature="method#putBytes#1;class#Buffer#0" expanded="false" />
-                <element signature="method#putStringList#0;class#Buffer#0" expanded="false" />
-                <element signature="method#putStringList#1;class#Buffer#0" expanded="false" />
-                <element signature="method#putString#1;class#Buffer#0" expanded="false" />
-                <element signature="method#putMPInt#1;class#Buffer#0" expanded="false" />
-                <element signature="method#putPublicKey#0;class#Buffer#0" expanded="false" />
-                <element signature="method#putRawPublicKey#0;class#Buffer#0" expanded="false" />
-                <element signature="method#putKeyPair#0;class#Buffer#0" expanded="false" />
-                <element signature="method#ensureCapacity#0;class#Buffer#0" expanded="false" />
-                <element signature="method#toString#0;class#Buffer#0" expanded="false" />
+                <element signature="e#1417#1444#0" expanded="true" />
+                <element signature="e#3074#3075#0" expanded="true" />
+                <element signature="e#3103#3104#0" expanded="true" />
+                <element signature="e#3167#3168#0" expanded="true" />
+                <element signature="e#3195#3196#0" expanded="true" />
+                <element signature="e#3261#3262#0" expanded="true" />
+                <element signature="e#3289#3290#0" expanded="true" />
+                <element signature="e#3446#3447#0" expanded="true" />
+                <element signature="e#3494#3495#0" expanded="true" />
+                <element signature="e#3547#3548#0" expanded="true" />
+                <element signature="e#3599#3600#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,10 +95,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestSession.java" />
-        <option value="$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestCommand.java" />
         <option value="$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestChannel.java" />
-        <option value="$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/Main.java" />
         <option value="$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestShell.java" />
+        <option value="$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/Main.java" />
+        <option value="$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestCommand.java" />
       </list>
     </option>
   </component>
@@ -180,8 +123,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -228,7 +172,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -405,12 +348,19 @@
       <option name="project" value="LOCAL" />
       <updated>1487036985635</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Experimenting with opening a line of communication.">
+      <created>1487200652590</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1487200652590</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1602" height="875" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -419,11 +369,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32818532" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32818532" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -440,6 +389,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -450,7 +400,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Create a ssh service with apache sshd. Able to connect but that's all." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create a ssh service with apache sshd. Able to connect but that's all." />
+    <MESSAGE value="Experimenting with opening a line of communication." />
+    <option name="LAST_COMMIT_MESSAGE" value="Experimenting with opening a line of communication." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -463,6 +414,19 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1476">
+          <caret line="82" column="71" lean-forward="true" selection-start-line="82" selection-start-column="71" selection-end-line="82" selection-end-column="71" />
+          <folding>
+            <element signature="e#907#982#0" expanded="false" />
+            <element signature="e#1983#2099#0" expanded="false" />
+            <element signature="e#2176#2230#0" expanded="false" />
+            <element signature="method#commitChanges#0;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1476">
@@ -481,11 +445,6 @@
         <state relative-caret-position="576">
           <caret line="52" column="21" lean-forward="true" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
           <folding>
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="method#ProcessShellFactory#1;class#ProcessShellFactory#0" expanded="false" />
-            <element signature="method#setCommand#0;class#ProcessShellFactory#0" expanded="false" />
-            <element signature="method#setCommand#1;class#ProcessShellFactory#0" expanded="false" />
             <element signature="e#1619#1620#0" expanded="true" />
             <element signature="e#1694#1695#0" expanded="true" />
           </folding>
@@ -519,8 +478,6 @@
           <caret line="64" column="48" lean-forward="true" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
           <folding>
             <element signature="docComment;class#TestCommand#0" expanded="false" />
-            <element signature="method#destroy#0;class#TestCommand#0" expanded="false" />
-            <element signature="method#ProFactory#0;class#ProFactory#0;class#TestCommand#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -739,13 +696,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestSession.java" />
-    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/server/CommandFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/common/util/ValidateUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -757,7 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="116" column="11" lean-forward="false" selection-start-line="116" selection-start-column="11" selection-end-line="116" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -775,31 +724,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="29" column="53" lean-forward="false" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#TestCommand#0" expanded="false" />
-            <element signature="method#destroy#0;class#TestCommand#0" expanded="false" />
-            <element signature="method#ProFactory#0;class#ProFactory#0;class#TestCommand#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestChannel.java" />
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/src.zip!/java/lang/ProcessImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-916">
           <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -807,7 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="1141" column="0" lean-forward="false" selection-start-line="1141" selection-start-column="0" selection-end-line="1141" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -815,7 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -823,15 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/server/shell/InvertedShellWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-283">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -839,14 +757,124 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/server/ServerFactoryManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/server/session/ServerSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/common/util/buffer/Buffer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="58" column="14" lean-forward="false" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/common/util/buffer/ByteArrayBuffer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding>
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/common/session/Session.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="61" column="41" lean-forward="true" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/common/util/GenericUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1355">
+          <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <folding>
+            <element signature="method#safeCompare#0;class#GenericUtils#0" expanded="false" />
+            <element signature="method#split#0;class#GenericUtils#0" expanded="false" />
+            <element signature="method#join#0;class#GenericUtils#0" expanded="false" />
+            <element signature="method#join#2;class#GenericUtils#0" expanded="false" />
+            <element signature="method#join#3;class#GenericUtils#0" expanded="false" />
+            <element signature="method#join#4;class#GenericUtils#0" expanded="false" />
+            <element signature="method#join#5;class#GenericUtils#0" expanded="false" />
+            <element signature="method#isEmpty#3;class#GenericUtils#0" expanded="false" />
+            <element signature="method#of#0;class#GenericUtils#0" expanded="false" />
+            <element signature="method#of#1;class#GenericUtils#0" expanded="false" />
+            <element signature="method#asList#0;class#GenericUtils#0" expanded="false" />
+            <element signature="method#asSortedSet#0;class#GenericUtils#0" expanded="false" />
+            <element signature="method#asSortedSet#1;class#GenericUtils#0" expanded="false" />
+            <element signature="method#asSortedSet#2;class#GenericUtils#0" expanded="false" />
+            <element signature="method#flipMap#0;class#GenericUtils#0" expanded="false" />
+            <element signature="method#mapValues#0;class#GenericUtils#0" expanded="false" />
+            <element signature="method#mapValues#1;class#GenericUtils#0" expanded="false" />
+            <element signature="method#selectMatchingMembers#0;class#GenericUtils#0" expanded="false" />
+            <element signature="method#selectMatchingMembers#1;class#GenericUtils#0" expanded="false" />
+            <element signature="method#stripQuotes#0;class#GenericUtils#0" expanded="false" />
+            <element signature="method#stripDelimiters#0;class#GenericUtils#0" expanded="false" />
+            <element signature="method#peelException#0;class#GenericUtils#0" expanded="false" />
+            <element signature="method#resolveExceptionCause#0;class#GenericUtils#0" expanded="false" />
+            <element signature="method#accumulateException#0;class#GenericUtils#0" expanded="false" />
+            <element signature="method#supplierOf#0;class#GenericUtils#0" expanded="false" />
+            <element signature="class#13355:13579" expanded="false" />
+            <element signature="method#iteratorOf#0;class#GenericUtils#0" expanded="false" />
+            <element signature="method#multiIterableSuppliers#0;class#GenericUtils#0" expanded="false" />
+            <element signature="class#14162:15859" expanded="false" />
+            <element signature="method#next#0;class#14162:15859" expanded="false" />
+            <element signature="method#nextIterator#0;class#14162:15859" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/server/shell/ProcessShell.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="37" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/src.zip!/java/lang/Process.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-182">
+          <caret line="76" column="22" lean-forward="false" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+          <folding>
+            <element signature="docComment;class#Process#0" expanded="false" />
+            <element signature="docComment;method#getOutputStream#0;class#Process#0" expanded="false" />
+            <element signature="docComment;method#getInputStream#0;class#Process#0" expanded="false" />
+            <element signature="docComment;method#getErrorStream#0;class#Process#0" expanded="false" />
+            <element signature="docComment;method#waitFor#0;class#Process#0" expanded="false" />
+            <element signature="docComment;method#waitFor#1;class#Process#0" expanded="false" />
+            <element signature="method#waitFor#1;class#Process#0" expanded="false" />
+            <element signature="docComment;method#exitValue#0;class#Process#0" expanded="false" />
+            <element signature="docComment;method#destroy#0;class#Process#0" expanded="false" />
+            <element signature="docComment;method#destroyForcibly#0;class#Process#0" expanded="false" />
+            <element signature="method#destroyForcibly#0;class#Process#0" expanded="false" />
+            <element signature="docComment;method#isAlive#0;class#Process#0" expanded="false" />
+            <element signature="method#isAlive#0;class#Process#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/src.zip!/java/lang/ProcessBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="559" column="0" lean-forward="false" selection-start-line="559" selection-start-column="0" selection-end-line="559" selection-end-column="0" />
+        <state relative-caret-position="-342">
+          <caret line="177" column="19" lean-forward="false" selection-start-line="177" selection-start-column="19" selection-end-line="177" selection-end-column="19" />
           <folding>
             <element signature="docComment;class#ProcessBuilder#0" expanded="false" />
             <element signature="docComment;method#ProcessBuilder#0;class#ProcessBuilder#0" expanded="false" />
@@ -936,61 +964,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/server/shell/ProcessShell.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-          <folding>
-            <element signature="e#1855#1856#0" expanded="true" />
-            <element signature="e#1890#1891#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/server/ServerFactoryManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/common/session/Session.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-293">
-          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/server/session/ServerSession.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/server/shell/ProcessShellFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="20" column="76" lean-forward="false" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
+        <state relative-caret-position="405">
+          <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
           <folding>
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="method#ProcessShellFactory#1;class#ProcessShellFactory#0" expanded="false" />
-            <element signature="method#setCommand#0;class#ProcessShellFactory#0" expanded="false" />
-            <element signature="method#setCommand#1;class#ProcessShellFactory#0" expanded="false" />
             <element signature="e#1619#1620#0" expanded="true" />
             <element signature="e#1694#1695#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/server/shell/InvertedShellWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="32" column="24" lean-forward="false" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/server/shell/TtyFilterOutputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/server/scp/ScpCommandFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+          <folding>
+            <element signature="e#1877#1878#0" expanded="true" />
+            <element signature="e#1914#1915#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="136" column="17" lean-forward="false" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/common/io/IoAcceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestShell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="70" column="8" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/server/SshServer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4176">
+          <caret line="345" column="10" lean-forward="true" selection-start-line="345" selection-start-column="10" selection-end-line="345" selection-end-column="10" />
+          <folding>
+            <element signature="e#4864#4865#0" expanded="true" />
+            <element signature="e#4912#4913#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/server/CommandFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="82" column="71" lean-forward="true" selection-start-line="82" selection-start-column="71" selection-end-line="82" selection-end-column="71" />
+        <state relative-caret-position="954">
+          <caret line="81" column="61" lean-forward="false" selection-start-line="81" selection-start-column="61" selection-end-line="81" selection-end-column="61" />
           <folding>
             <element signature="e#907#982#0" expanded="false" />
             <element signature="e#1983#2099#0" expanded="false" />
@@ -1000,76 +1058,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/sshd-core-1.2.0.jar!/org/apache/sshd/common/util/buffer/Buffer.class">
+    <entry file="file://$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-432">
-          <caret line="58" column="14" lean-forward="false" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+        <state relative-caret-position="90">
+          <caret line="14" column="78" lean-forward="false" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
           <folding>
-            <element signature="method#Buffer#0;class#Buffer#0" expanded="false" />
-            <element signature="method#getCompactData#0;class#Buffer#0" expanded="false" />
-            <element signature="method#dumpHex#0;class#Buffer#0" expanded="false" />
-            <element signature="method#dumpHex#1;class#Buffer#0" expanded="false" />
-            <element signature="method#getByte#0;class#Buffer#0" expanded="false" />
-            <element signature="method#getShort#0;class#Buffer#0" expanded="false" />
-            <element signature="method#getUInt#0;class#Buffer#0" expanded="false" />
-            <element signature="method#getLong#0;class#Buffer#0" expanded="false" />
-            <element signature="method#getStringList#0;class#Buffer#0" expanded="false" />
-            <element signature="method#getStringList#1;class#Buffer#0" expanded="false" />
-            <element signature="method#getAvailableStrings#1;class#Buffer#0" expanded="false" />
-            <element signature="method#getStringList#3;class#Buffer#0" expanded="false" />
-            <element signature="method#getBytes#0;class#Buffer#0" expanded="false" />
-            <element signature="method#getPublicKey#0;class#Buffer#0" expanded="false" />
-            <element signature="method#getPublicKey#1;class#Buffer#0" expanded="false" />
-            <element signature="method#getRawPublicKey#0;class#Buffer#0" expanded="false" />
-            <element signature="method#getRawPublicKey#1;class#Buffer#0" expanded="false" />
-            <element signature="method#getKeyPair#0;class#Buffer#0" expanded="false" />
-            <element signature="method#extractEC#0;class#Buffer#0" expanded="false" />
-            <element signature="method#ensureAvailable#0;class#Buffer#0" expanded="false" />
-            <element signature="method#putByte#0;class#Buffer#0" expanded="false" />
-            <element signature="method#putShort#0;class#Buffer#0" expanded="false" />
-            <element signature="method#putInt#0;class#Buffer#0" expanded="false" />
-            <element signature="method#putLong#0;class#Buffer#0" expanded="false" />
-            <element signature="method#putBytes#1;class#Buffer#0" expanded="false" />
-            <element signature="method#putStringList#0;class#Buffer#0" expanded="false" />
-            <element signature="method#putStringList#1;class#Buffer#0" expanded="false" />
-            <element signature="method#putString#1;class#Buffer#0" expanded="false" />
-            <element signature="method#putMPInt#1;class#Buffer#0" expanded="false" />
-            <element signature="method#putPublicKey#0;class#Buffer#0" expanded="false" />
-            <element signature="method#putRawPublicKey#0;class#Buffer#0" expanded="false" />
-            <element signature="method#putKeyPair#0;class#Buffer#0" expanded="false" />
-            <element signature="method#ensureCapacity#0;class#Buffer#0" expanded="false" />
-            <element signature="method#toString#0;class#Buffer#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/umkc/mail/jmbp77/clisharedfolder/TestShell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="70" column="58" lean-forward="true" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
-          <folding>
-            <element signature="e#858#925#0" expanded="false" />
-            <element signature="e#927#1001#0" expanded="false" />
-            <element signature="e#2693#2716#0" expanded="false" />
-            <element signature="method#run#0;class#TestShell#0" expanded="false" />
-            <element signature="method#exitValue#0;class#TestShell#0" expanded="false" />
-            <element signature="class#Factory#0;class#TestShell#0" expanded="false" />
-            <element signature="e#4936#4937#0" expanded="true" />
-            <element signature="e#4968#4969#0" expanded="true" />
-            <element signature="e#5079#5080#0" expanded="true" />
-            <element signature="e#5111#5112#0" expanded="true" />
-            <element signature="e#5226#5227#0" expanded="true" />
-            <element signature="e#5258#5259#0" expanded="true" />
-            <element signature="e#5309#5310#0" expanded="true" />
-            <element signature="e#5351#5352#0" expanded="true" />
-            <element signature="e#5543#5544#0" expanded="true" />
-            <element signature="e#5589#5590#0" expanded="true" />
-            <element signature="e#5669#5670#0" expanded="true" />
-            <element signature="e#5701#5702#0" expanded="true" />
-            <element signature="e#5951#5952#0" expanded="true" />
-            <element signature="e#5983#5984#0" expanded="true" />
-            <element signature="e#6035#6036#0" expanded="true" />
-            <element signature="e#6067#6068#0" expanded="true" />
+            <element signature="e#1417#1444#0" expanded="true" />
+            <element signature="e#3074#3075#0" expanded="true" />
+            <element signature="e#3103#3104#0" expanded="true" />
+            <element signature="e#3167#3168#0" expanded="true" />
+            <element signature="e#3195#3196#0" expanded="true" />
+            <element signature="e#3261#3262#0" expanded="true" />
+            <element signature="e#3289#3290#0" expanded="true" />
+            <element signature="e#3446#3447#0" expanded="true" />
+            <element signature="e#3494#3495#0" expanded="true" />
+            <element signature="e#3547#3548#0" expanded="true" />
+            <element signature="e#3599#3600#0" expanded="true" />
           </folding>
         </state>
       </provider>

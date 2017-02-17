@@ -79,9 +79,7 @@ public class Main {
             keygen.setAlgorithm(KeyPairProvider.SSH_RSA);
             sshd.setKeyPairProvider(keygen);
             sshd.setPasswordAuthenticator(AcceptAllPasswordAuthenticator.INSTANCE);
-//            sshd.setShellFactory(new TestCommand.ProFactory("TestCommand"));
-//            sshd.setShellFactory(new ProcessShellFactory("/bin/sh"));
-            sshd.setShellFactory(new TestShell.Factory("TestShell"));
+            sshd.setShellFactory(new TestCommand.TestFactory());
             System.out.println("starting sshd");
             sshd.start();
             Thread.sleep(240*1000);
