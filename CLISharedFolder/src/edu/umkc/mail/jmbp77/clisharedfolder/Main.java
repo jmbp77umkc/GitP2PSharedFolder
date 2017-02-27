@@ -1,21 +1,27 @@
 package edu.umkc.mail.jmbp77.clisharedfolder;
 
-import org.apache.sshd.common.NamedFactory;
+import org.apache.sshd.client.SshClient;
+import org.apache.sshd.client.channel.ClientChannel;
+import org.apache.sshd.client.channel.ClientChannelEvent;
+import org.apache.sshd.client.future.AuthFuture;
+import org.apache.sshd.client.future.ConnectFuture;
+import org.apache.sshd.client.session.ClientSession;
+import org.apache.sshd.common.future.SshFutureListener;
 import org.apache.sshd.common.keyprovider.KeyPairProvider;
-import org.apache.sshd.server.Command;
+import org.apache.sshd.common.util.io.NoCloseInputStream;
+import org.apache.sshd.common.util.io.NoCloseOutputStream;
 import org.apache.sshd.server.SshServer;
 import org.apache.sshd.server.auth.password.AcceptAllPasswordAuthenticator;
+import org.apache.sshd.server.auth.pubkey.AcceptAllPublickeyAuthenticator;
 import org.apache.sshd.server.keyprovider.SimpleGeneratorHostKeyProvider;
-import org.apache.sshd.server.shell.ProcessShellFactory;
 import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.Status;
 import org.json.JSONObject;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
+import java.io.*;
+import java.util.Collection;
+import java.util.LinkedHashSet;
 import java.util.LinkedList;
-import java.util.List;
 import java.util.Set;
 
 public class Main {
@@ -82,7 +88,73 @@ public class Main {
             sshd.setShellFactory(new TestCommand.TestFactory());
             System.out.println("starting sshd");
             sshd.start();
-            Thread.sleep(240*1000);
+//            Thread.sleep(240*1000);
+
+
+
+
+
+
+//by example http://stackoverflow.com/questions/8490293/sshd-java-example#26615119
+//  with changes to make it compatible with the current api
+            SshClient client = SshClient.setUpDefaultClient();
+            client.addPasswordIdentity("password");
+            client.start();
+            ConnectFuture connf = client.connect("bob", "localhost", 8888);
+            connf.await();
+            final ClientSession session = connf.getSession();
+            Set<ClientSession.ClientSessionEvent> authStates = new LinkedHashSet<>();
+            authStates.add(ClientSession.ClientSessionEvent.WAIT_AUTH);
+            while (authStates.contains(ClientSession.ClientSessionEvent.WAIT_AUTH)) {
+
+                System.out.println("authenticating...");
+                AuthFuture authFuture = session.auth();
+                authFuture.addListener(new SshFutureListener<AuthFuture>()
+                {
+                    @Override
+                    public void operationComplete(AuthFuture arg0)
+                    {
+                        System.out.println("Authentication completed with " + ( arg0.isSuccess() ? "success" : "failure"));
+                    }
+                });
+
+                authFuture.await();
+
+                Collection<ClientSession.ClientSessionEvent> astates = new LinkedList<>();
+                astates.add(ClientSession.ClientSessionEvent.WAIT_AUTH);
+                astates.add(ClientSession.ClientSessionEvent.CLOSED);
+                astates.add(ClientSession.ClientSessionEvent.AUTHED);
+
+                authStates = session.waitFor(astates,-1);
+            }
+
+            if (authStates == null || authStates.contains(ClientSession.ClientSessionEvent.CLOSED)) {
+                System.err.println("error");
+                System.exit(-1);
+            }
+
+            ClientChannel channel = session.createShellChannel();
+            channel.setOut(new NoCloseOutputStream(System.out)); //this'll be the stream that the server replies with
+            channel.setErr(new NoCloseOutputStream(System.err));
+            channel.open();
+
+            executeCommand(channel, "hello ");
+            executeCommand(channel, " world!");
+            executeCommand(channel, "exit");
+
+
+            Collection<ClientChannelEvent> cevents = new LinkedList<>();
+            cevents.add(ClientChannelEvent.CLOSED);
+            channel.waitFor(cevents, 0);
+
+            session.close(false);
+            client.stop();
+
+
+
+
+
+
             sshd.stop();
         } catch (Exception e) {
             e.printStackTrace();
@@ -120,5 +192,11 @@ public class Main {
             e.printStackTrace();
             return false;
         }
+    }
+
+    private static void executeCommand(final ClientChannel channel, final String command) throws IOException
+    {
+        final InputStream commandInput = new ByteArrayInputStream(command.getBytes());
+        channel.setIn(new NoCloseInputStream(commandInput)); //this is how the client sends data to the server
     }
 }
